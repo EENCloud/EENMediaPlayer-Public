@@ -1,0 +1,27 @@
+name: EENMediaPlayer-Public
+id: ari:cloud:compass:4337fc0d-aa55-4ff9-bd75-ef7117ff9381:component/4c6fdffe-fa4a-46ef-9e6f-a1aa05480c89/435e671c-7636-41f0-87ae-3bd1f585c387
+description: null
+configVersion: 1
+typeId: SERVICE
+ownerId: null
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/EENCloud/EENMediaPlayer-Public
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:ruby
+  - source:github
+customFields:
+  - name: Audit status
+    type: single_select
+    value: null
+  - name: Production deployed
+    type: boolean
+    value: false
+  - name: Requires audit
+    type: boolean
+    value: false
